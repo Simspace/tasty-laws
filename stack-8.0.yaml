@@ -1,6 +1,0 @@
-flags: {}
-packages:
-- '.'
-- 'laws'
-- 'tasty-dumbcheck'
-resolver: lts-7.7

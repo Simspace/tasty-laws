@@ -1,1 +1,6 @@
-stack-8.6.yaml
+flags: {}
+packages:
+- '.'
+- 'laws'
+- 'tasty-dumbcheck'
+resolver: lts-13.0
