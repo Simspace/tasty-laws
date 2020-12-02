@@ -1,6 +1,9 @@
-flags: {}
+resolver: lts-16.23
 packages:
-- '.'
-- 'laws'
-- 'tasty-dumbcheck'
-resolver: lts-13.0
+- .
+
+extra-deps:
+  - git: https://github.com/simspace/tasty-dumbcheck.git
+    commit: 6d7265e79dabba48b01735f7cac83a2113677c7c
+  - git: http://github.com/simspace/laws.git
+    commit: 43dccee1ac476f118a9bc335c923d33a93af627f
